@@ -1,0 +1,17 @@
+.form-around
+  .form-wrap
+    = form_with model: @post do |f|
+      .f-title
+        %h2 タイトル
+        .input-title
+          = f.text_field :title, class: "title-field"
+      .f-content
+        %h2 コンテンツ
+        .input-content
+          = f.text_area :content, class: "content-field", rows: 5
+      .f-category
+        %h2 カテゴリー
+        .input-category
+      .f-submit
+        %p
+          = f.submit "送信", class: "submit-field"

@@ -9,10 +9,11 @@
         .post-each
           .p-user
             %p ユーザー
-          .p-main
-            .p-title
-              = post.title
-            .p-content
-              = post.content
+          = link_to post_path(post) do
+            .p-main
+              .p-title
+                = post.title
+              .p-content
+                = post.content
 
 = link_to 'new', new_post_path
