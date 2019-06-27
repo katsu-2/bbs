@@ -1,0 +1,52 @@
+@import 'common';
+.form-around {
+  .form-wrap {
+    width: 70%;
+    border: 1px solid #cfcfcf;
+    margin: auto;
+    padding: 20px 40px;
+
+    .f-title {
+      h2 {
+
+      }
+      .input-title {
+        .title-field {
+          width: 100%;
+          height: 30px;
+          font-size: 1rem;
+        }
+      }
+    }
+    .f-content {
+      h2 {
+
+      }
+      .input-content {
+        .content-field {
+          width: 100%;
+          font-size: 1rem;
+        }
+      }
+    }
+    .f-category {
+      h2 {
+
+      }
+      .input-category {
+
+      }
+    }
+    .f-submit {
+      p {
+        text-align: center;
+
+        .submit-field {
+          padding: 10px 30px;
+          font-size: 1.2rem;
+          color: $green;
+        }
+      }
+    }
+  }
+}
