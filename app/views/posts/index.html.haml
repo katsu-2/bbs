@@ -1,0 +1,16 @@
+
+.wrapper
+  .post-wrap
+    .user
+      .u-name
+      .u-intro
+    .post
+      - @posts.each do |post|
+        .post-each
+          .p-user
+            %p ユーザー
+          .p-main
+            .p-title
+              = post.title
+            .p-content
+              = post.content

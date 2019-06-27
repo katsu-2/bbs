@@ -1,0 +1,43 @@
+.wrapper {
+  .post-wrap {
+    display: flex;
+    justify-content: center;
+
+    .user {
+      width: 30%;
+      height: 200px;
+      background: black;
+
+      .u-name {
+
+      }
+      .u-intro {
+
+      }
+    }
+
+    .post {
+      width: 60%;
+      height: 100%;
+
+      .post-each {
+        border: 1px solid #cfcfcf;
+        margin-bottom: 10px;
+
+        .p-user {
+          p {
+            font-weight: bold;
+          }
+        }
+        .p-main {
+          .p-title {
+
+          }
+          .p-content {
+
+          }
+        }
+      }
+    }
+  }
+}
