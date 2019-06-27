@@ -64,3 +64,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 gem 'rspec-rails', '~> 3.8', '>= 3.8.2'
+gem 'haml-rails'
+gem 'erb2haml'
+gem 'pry-rails', '~> 0.3.9'
